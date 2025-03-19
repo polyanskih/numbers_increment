@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static ru.polyanskih.numbers.increment.model.IncrementErrors.BODY_FORMAT;
+import static ru.polyanskih.numbers.increment.model.enums.IncrementErrors.BODY_FORMAT;
 import static ru.polyanskih.numbers.increment.validation.IncrementRequestValidator.validateRequest;
 
 @RestController

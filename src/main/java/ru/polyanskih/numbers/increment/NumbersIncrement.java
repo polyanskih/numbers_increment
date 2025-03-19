@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class NumbersIncrement {
 
-	public static void main(String[] args) {
-		SpringApplication.run(NumbersIncrement.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(NumbersIncrement.class, args);
+    }
 }

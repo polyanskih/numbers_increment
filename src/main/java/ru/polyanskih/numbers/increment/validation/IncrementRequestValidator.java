@@ -1,6 +1,6 @@
 package ru.polyanskih.numbers.increment.validation;
 
-import ru.polyanskih.numbers.increment.model.IncrementErrors;
+import ru.polyanskih.numbers.increment.model.enums.IncrementErrors;
 import ru.polyanskih.numbers.increment.exception.ValidationException;
 import ru.polyanskih.numbers.increment.model.IncrementRequest;
 

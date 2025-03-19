@@ -1,4 +1,4 @@
-package ru.polyanskih.numbers.increment.model;
+package ru.polyanskih.numbers.increment.model.enums;
 
 public enum IncrementErrors {
 

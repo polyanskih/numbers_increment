@@ -1,5 +1,7 @@
 package ru.polyanskih.numbers.increment.model;
 
+import ru.polyanskih.numbers.increment.model.enums.IncrementErrors;
+
 public class ErrorResponse {
     private int code;
     private String description;
