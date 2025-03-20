@@ -1,16 +1,16 @@
 package ru.polyanskih.numbers.increment.exception;
 
-import ru.polyanskih.numbers.increment.model.enums.IncrementErrors;
+import ru.polyanskih.numbers.increment.model.enums.IncrementError;
 
 public class ValidationException extends RuntimeException{
 
-    private final IncrementErrors incrementErrors;
+    private final IncrementError incrementError;
 
-    public ValidationException(IncrementErrors incrementErrors){
-        this.incrementErrors = incrementErrors;
+    public ValidationException(IncrementError incrementError){
+        this.incrementError = incrementError;
     }
 
-    public IncrementErrors getIncrementErrors() {
-        return incrementErrors;
+    public IncrementError getIncrementErrors() {
+        return incrementError;
     }
 }

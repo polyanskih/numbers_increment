@@ -19,4 +19,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.testng:testng:7.11.0'
+	testImplementation 'io.rest-assured:rest-assured:5.5.1'
+}
+
+test {
+	useTestNG()
 }

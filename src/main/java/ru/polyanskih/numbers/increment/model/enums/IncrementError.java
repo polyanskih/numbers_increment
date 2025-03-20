@@ -1,13 +1,13 @@
 package ru.polyanskih.numbers.increment.model.enums;
 
-public enum IncrementErrors {
+public enum IncrementError {
 
     BODY_FORMAT(0, "Неверный формат запроса"),
     NO_NUMBERS(1, "В запросе нет 'numbers'"),
     EMPTY_NUMBERS(2, "Массив 'numbers' пустой"),
     NULL_NUMBER(3, "null в 'numbers'");
 
-    IncrementErrors(int code, String description) {
+    IncrementError(int code, String description) {
         this.code = code;
         this.description = description;
     }

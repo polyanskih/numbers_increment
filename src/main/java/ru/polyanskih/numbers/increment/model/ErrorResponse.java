@@ -1,14 +1,14 @@
 package ru.polyanskih.numbers.increment.model;
 
-import ru.polyanskih.numbers.increment.model.enums.IncrementErrors;
+import ru.polyanskih.numbers.increment.model.enums.IncrementError;
 
 public class ErrorResponse {
     private int code;
     private String description;
 
-    public ErrorResponse(IncrementErrors incrementErrors) {
-        this.code = incrementErrors.getCode();
-        this.description = incrementErrors.getDescription();
+    public ErrorResponse(IncrementError incrementError) {
+        this.code = incrementError.getCode();
+        this.description = incrementError.getDescription();
     }
 
     public String getDescription() {

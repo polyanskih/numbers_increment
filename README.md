@@ -13,3 +13,7 @@ curl --location --request POST 'localhost:8080/numbers/increment' \
 ]
 }'
 ```
+
+также в /test добавлен пример тестов, запуск ```gradlew test```
+
+даже генерится базовый отчет ```/build/reports/tests/index.html```
